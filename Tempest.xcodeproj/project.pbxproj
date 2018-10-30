@@ -16,6 +16,7 @@
 		C45EB8B621834C8900514BA3 /* ChangeLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45EB8B521834C8900514BA3 /* ChangeLocationViewController.swift */; };
 		C4BA2D9321838FBF00AD7FD1 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BA2D9221838FBF00AD7FD1 /* WeatherData.swift */; };
 		C4BA2D9521838FD400AD7FD1 /* GeocodingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BA2D9421838FD400AD7FD1 /* GeocodingData.swift */; };
+		C4BA2D9721874D6D00AD7FD1 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BA2D9621874D6D00AD7FD1 /* APIManager.swift */; };
 		E44C3A6DCD27EA4E9AFBA276 /* Pods_Tempest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98F0BBAA0E4ED269F7E72B2 /* Pods_Tempest.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		C45EB8B521834C8900514BA3 /* ChangeLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeLocationViewController.swift; sourceTree = "<group>"; };
 		C4BA2D9221838FBF00AD7FD1 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		C4BA2D9421838FD400AD7FD1 /* GeocodingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocodingData.swift; sourceTree = "<group>"; };
+		C4BA2D9621874D6D00AD7FD1 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		E890934662429E78AA95F1EF /* Pods-Tempest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tempest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tempest/Pods-Tempest.debug.xcconfig"; sourceTree = "<group>"; };
 		E98F0BBAA0E4ED269F7E72B2 /* Pods_Tempest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tempest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -119,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				C45EB8B3218236BA00514BA3 /* APIKeys.swift */,
+				C4BA2D9621874D6D00AD7FD1 /* APIManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 				C4BA2D9521838FD400AD7FD1 /* GeocodingData.swift in Sources */,
 				C44D87E92180FE260010D8B4 /* AppDelegate.swift in Sources */,
 				C45EB8B621834C8900514BA3 /* ChangeLocationViewController.swift in Sources */,
+				C4BA2D9721874D6D00AD7FD1 /* APIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
